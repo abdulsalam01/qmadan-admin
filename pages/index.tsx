@@ -1,12 +1,14 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import IndexCategory from './Category';
+import Header from '../components/Header/header';
+import Footer from '../components/Footer/footer';
 
 export default function Home() {
 
   return (
-    <div>
-      <IndexCategory />
+    <div className="container-fluid">
+      <Header title='Dashboard' description='dashboard-admin'/>
+        <h2>Dashboard Admin Qismi is Here!</h2>
+      <Footer />
     </div>
   )
 }

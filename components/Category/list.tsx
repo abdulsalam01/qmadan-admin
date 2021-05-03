@@ -59,7 +59,7 @@ function List() {
                 </thead>
                 <tbody>
                     {list.map((value: Category, index: number) => (
-                        <tr>
+                        <tr key={index}>
                             <td scope="row" align="center" valign="middle">{index+1}</td>
                             <td scope="row" align="center" valign="middle">{value._id}</td>
                             <td scope="row" align="center" valign="middle">{value.title}</td>

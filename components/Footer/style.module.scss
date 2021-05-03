@@ -1,0 +1,12 @@
+.footer {
+    footer {
+        display: flex;
+        flex-direction: row;
+        a {
+            -ms-flex-align: end;
+            float: right;
+            color: white;
+            text-decoration: none;
+        }
+    }
+}

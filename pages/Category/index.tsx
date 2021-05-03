@@ -6,7 +6,7 @@ import Header from "../../components/Header/header";
 const Index = () => {
     return (
         <React.Fragment>
-            <div className='container'>
+            <div className='container-fluid'>
                 <Header title='Category' description='category-list'/>
                     <List/>
                 <Footer />
